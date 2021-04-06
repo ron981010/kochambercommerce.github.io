@@ -32,10 +32,10 @@
 
     .weather-summary {
         position: absolute;
-        top: 450px;
-        right: 250px;
-        background-color: rgba(240, 240, 240, 0.8);
-        width: 20%;
+        top: 300px;
+        right: 20px;
+        background-color: rgb(158 155 205 / 80%);
+        width: 30%;
         padding-left: 30px;
     }
 
