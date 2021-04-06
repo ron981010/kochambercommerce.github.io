@@ -134,7 +134,10 @@ main {
 }
 
 .social {
-    background-color: #36454f;
+    width: 60px;
+    border-style: groove;
+    border-radius: 35px 0px 35px 0px;
+    border-color: #5697D2;
 }
 
 .photoA img {
