@@ -57,10 +57,19 @@
         background-color: #453F3C;
     }
 
-
-    footer {
-        display: grid;
-        justify-content: center;
+    .footercontent {
+        background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdfffd+0,5697d2+18,da3e52+49,453f3c+100 */
+            background: #bdfffd;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #bdfffd 0%, #5697d2 18%, #da3e52 49%, #453f3c 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #bdfffd 0%, #5697d2 18%, #da3e52 49%, #453f3c 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #bdfffd 0%, #5697d2 18%, #da3e52 49%, #453f3c 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bdfffd', endColorstr='#453f3c', GradientType=1);
+            /* IE6-9 */f;
+        padding: 10px;
     }
 
     header {
