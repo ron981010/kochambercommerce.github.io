@@ -79,7 +79,8 @@
 
     h2,
     h1,
-    h3 {
+    h3, 
+    p {
         color: #F0f4Ef;
     }
 
@@ -108,7 +109,9 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
     }
-
+    div.cards {
+        background: #DA3E52;
+    }
     .cards div:nth-child(2) figure {
         grid-column: 1;
         grid-row: 1;
