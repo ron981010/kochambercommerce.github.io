@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Whateride information about activities">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Weatheride web page Preston</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+    <script src="js/portal.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/currentweatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="jssoda/eventssoda.js"></script>
+</head>
+
+<body onload="GetFileInfo()">
+
+    <div id="Fri" style="display:none">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <div id="others" style="display:none">
+    </div>
+
+    <section class=headersection>
+        <header>
+            <div class="logo">
+                <img src="images/iconfinder_fog-cloud_110834.png" alt="logo">
+            </div>
+            <div>
+                <h1>Weatheride</h1>
+                <h2 class=decorationhead>The perfect time for the perfect place </h2>
+            </div>
+        </header>
+    </section>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://ron981010.github.io/lesson11/index.html">Home</a></li>
+            <li class=active><a href="https://ron981010.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="https://ron981010.github.io/lesson11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://ron981010.github.io/lesson11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://ron981010.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://ron981010.github.io/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="preston">Preston Idaho</h1>
+        <div class="hero-div">
+            <div class="hero-ph">
+                <img class="heroimg" src="images/Cristo.jpg" alt="hero img">
+            </div>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Weather: <span id="weather"></span></p>
+                <p>Tempreture: <span id="temp"></span>F</p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Chill: <span id="wind"></span>F</p>
+                <p>Wind Speed: <span id="speed"></span>mph</p>
+            </section>
+        </div>
+        <div class="container">
+            <h3>5 Day Forecast</h3>
+            <table class="weather" border="1">
+                <tr>
+                    <th>
+                        <p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p>
+                    </th>
+
+                </tr>
+                <tr>
+                    <td>
+                        <p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p>
+                    </td>
+                    <td>
+                        <p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p>
+                    </td>
+                    <td>
+                        <p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p>
+                    </td>
+                    <td>
+                        <p><span id="image4"></span>&nbsp;<img src="" alt="" id="icon4"></p>
+                    </td>
+                    <td>
+                        <p><span id="image5"></span>&nbsp;<img src="" alt="" id="icon5"></p>
+                    </td>
+                </tr>
+
+
+            </table>
+        </div>
+
+        <div class="event">
+            <h4>Upcoming Events</h4>
+        </div>
+
+        <div class="article">
+            <p class="article-paragraph">Preston was incorporated as a village in 1900 and as a city in 1912. The
+                new city of Preston, Idaho became the county seat of Franklin County in 1913 culminating a long
+                effort to divide from Oneida County.
+
+                When Andrew Jensen was collecting historical data for the Mormon Church in 1890 he wrote the
+                following about Preston Idaho:
+
+                Preston is in the Oneida Stake. It contains 106 families belonging to the church, most of whom live
+                in a scattered condition on their farms and ranches within a scope of country, about four miles
+                square. … It contains sixteen ten acre blocks and is perhaps as beautiful a town site as can be
+                found in Southern Idaho. It is being built up quite fast, and fine thrifty shade trees are planted
+                along the sidewalks of the principal streets. A Stake Academy building is also in course of
+                erection, which when completed will add considerable importance to the town. … There is room and
+                land for a large number of Saints yet, and I have not for a long time seen a new settlement in the
+                mountains that I would rather recommend to my friends who are seeking homes than Preston. </p>
+            <img class="article-img" src="images/artphoto.jpeg" alt="imgarticle">
+        </div>
+
+    </main>
+    <section class="contact">
+        <div class="map">
+            <img src="images/map.jpg" alt="map">
+        </div>
+        <div class="information">
+            <h2>Contact Information</h2>
+            <p>254 658 365</p>
+            <p>mail@preston.com</p>
+            <p>65 Map Street</p>
+            <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/faceicon.png"
+                    alt="facebook logo" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/insticon.png"
+                    alt="instagram logo" /></a>
+            <a href="https://www.youtube.com" target="_blank"><img class="social" src="images/youtubeicon.png"
+                    alt="youtube logo" /></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class=footercontent>
+            <p>&copy; 2021 | Ronald Acarapi | Bolivia |
+                <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <br> <a
+                    href="https://ron981010.github.io/index.html#">Home Page</a> | <a
+                    href="https://openweathermap.org/">Thanks to Openweathermap</a>
+            </p>
+            <p><span id="currentDate"></span></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
