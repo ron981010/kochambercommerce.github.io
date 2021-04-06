@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Whateride information about activities">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Weatheride web page</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+    <script src="js/portal.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/currentweatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+</head>
+
+<body onload="GetFileInfo()">
+
+    <div id="Fri" style="display:none">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <div id="others" style="display:none">
+    </div>
+
+    <section class=headersection>
+        <header>
+            <div class="logo">
+                <img src="images/iconfinder_fog-cloud_110834.png" alt="logo">
+            </div>
+            <div>
+                <h1>Weatheride</h1>
+                <h2 class=decorationhead>The perfect time for the perfect place </h2>
+            </div>
+        </header>
+    </section>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://ron981010.github.io\lesson9\index.html">Home</a></li>
+            <li class=active><a href="https://ron981010.github.io/lesson5/preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://ron981010.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://ron981010.github.io/lesson7/gallery-7.html/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="preston">Preston Idaho</h1>
+        <div class="hero-div">
+            <div class="hero-ph">
+                <img class="heroimg" src="images/pexels-maria-orlova-4947362.jpg" alt="hero img">
+            </div>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Weather: <span id="weather"></span></p>
+                <p>Tempreture: <span id="temp"></span>F</p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Chill: <span id ="wind"></span>F</p>
+                <p>Wind Speed: <span id="speed"></span>mph</p>
+            </section>
+        </div>
+        <div class="container">
+            <h3>5 Day Forecast</h3>
+            <table class="weather" border="1">
+              <tr>
+                <th><p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p></th>
+                <th><p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p></th>
+                <th><p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p></th>
+                <th><p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p></th>
+                <th><p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p></th>
+               
+                </tr>
+             <tr>
+                <td><p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p></td>
+                <td><p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p></td>
+                <td><p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p></td>
+                <td><p><span id="image4"></span>&nbsp;<img src="" alt="" id="icon4"></p></td>
+                <td><p><span id="image5"></span>&nbsp;<img src="" alt="" id="icon5"></p></td>
+              </tr>
+             
+            
+            </table>
+            <div class="article">
+                <p class="article-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                    a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader
+                    will be
+                    distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                    Ipsum is
+                    that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here',
+                    making it look like readable English. Many desktop publishing packages and web page editors now use
+                    Lorem
+                    Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                    in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected
+                    humour and the like). Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                    roots in a
+                    piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                    Latin
+                    professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    consectetur,
+                    from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+                    discovered the
+                    undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+                    Malorum"
+                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+                    of ethics,
+                    very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                    comes from
+                    a line in section 1.10.32.</p>
+                <img class="article-img" src="images/artphoto.jpeg" alt="imgarticle">
+            </div>
+        </div>
+    </main>
+    <section class="contact">
+        <div class="map">
+            <img src="images/map.jpg" alt="map">
+        </div>
+        <div class="information">
+            <h2>Contact Information</h2>
+            <p>254 658 365</p>
+            <p>mail@preston.com</p>
+            <p>65 Map Street</p>
+            <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/faceicon.png"
+                    alt="facebook logo" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/insticon.png"
+                    alt="instagram logo" /></a>
+            <a href="https://www.youtube.com" target="_blank"><img class="social" src="images/youtubeicon.png"
+                    alt="youtube logo" /></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class=footercontent>
+            <p>&copy; 2021 | Ronald Acarapi | Bolivia |
+                <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <br> <a
+                    href="https://ron981010.github.io/index.html#">Home Page</a> | <a href="https://openweathermap.org/">Thanks to Openweathermap</a> 
+            </p>
+            <p><span id="currentDate"></span></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

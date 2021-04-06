@@ -11,8 +11,12 @@
     }
 
     .logo img {
-        width: 250px;
+        width: 150px;
         margin-top: 1px;
+    }
+
+    .footercontent {
+        width: 650px;
     }
 
     h1 {
@@ -32,14 +36,17 @@
 
     .weather-summary {
         position: absolute;
-        top: 300px;
-        right: 20px;
-        background-color: rgb(188 254 252 / 27%);
-        width: 30%;
+        top: 18px;
+        left: 40px;
+        background-color: rgba(240, 240, 240, 0.8);
+        width: 20%;
         padding-left: 30px;
     }
 
-    
+    .weather {
+        width: 1000px;
+    }
+
     .article {
         display: flex;
     }
@@ -60,11 +67,6 @@
 
     .information {
         margin-left: 20px;
-    }
-
-    div.cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
