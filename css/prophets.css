@@ -1,0 +1,61 @@
+h1, h2 {
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+    color: #5d40dd;
+}
+/* Main Section */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+width: 95%;
+margin: auto;
+}
+div.cards {
+    padding: 1em;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #bcb4bc;
+    box-shadow: 0 0 10px 5px #ccc;
+}
+.card {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #e4d8eb;
+}
+img {
+    margin: auto;
+    max-width: 75%;
+}
+
+/* Grid Styles */
+
+@media only screen and (min-width: 32.5em) {
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .5em;
+    }
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 70em) {
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+footer {
+    background-color: #FCFFF7;
+    text-align: center;
+    padding: 1em;
+    width: 95%;
+    margin: auto;
+}

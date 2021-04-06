@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap");
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2.25rem;
+    color: #fff;
+}
+
+nav {
+    background-color: #36454f;
+    font-family: verdana, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.headersection {
+    align-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+header h2 {
+    margin-top: -20px;
+}
+
+body {
+    margin: 10px;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.footercontent {
+    background-color: #36454f;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a0abff;
+}
+
+h2,
+h1,
+h3 {
+    font-family: "Roboto Slab", Georgia, serif;
+    color: #36454f;
+
+}
+
+p,
+a,
+body {
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+}
+
+.decorationhead {
+    color: #DD6E42;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p,
+a,
+footer,
+main {
+    font-size: 1rem;
+}
+
+.social {
+    background-color: #36454f;
+}
+
+.photoA img {
+    width: 100%;
+}
+
+.forecast {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.contact {
+    display: flex;
+}
+
+.map img {
+    width: 100%;
+}
+
+.social {
+    width: 60px;
+}
+
+.article-img {
+    width: 300px;
+    margin: 25px;
+}
+
+.article {
+    display: block;
+}
+
+.contact {
+    display: block;
+}
+
+.preston {
+    text-align: center;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form fieldset div {
+    text-align: left;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+    color: #2075ff;
+}
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ------------ cards formatting ------------*/
+section.home {
+    text-align: center;
+    color: #3a506b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body>main>section>div>section:nth-child(1),
+body>main>section>div>section:nth-child(2),
+body>main>section>div>section:nth-child(3) {
+    border: 1px solid #5bc0be;
+}
+
+section.home>h2 {
+    color: #5bc0be;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    grid-gap: 5px;
+    padding: 10px 2%;
+    margin: 0 auto;
+    overflow: auto;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+div.cards img {
+    width: 62%;
+    max-height: 250px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #F5F5F5;
+    box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 black;
+}
+
+.textadd {
+    margin: 25px;
+}
