@@ -2,16 +2,16 @@
 @media only screen and (min-width: 35rem) {
 
     nav {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c0d6df+1,36454f+100 */
-        background: #c0d6df;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdfffd+0,5697d2+18,da3e52+49,453f3c+100 */
+        background: #bdfffd;
         /* Old browsers */
-        background: -moz-linear-gradient(top, #c0d6df 1%, #36454f 100%);
+        background: -moz-linear-gradient(left, #bdfffd 0%, #5697d2 18%, #da3e52 49%, #453f3c 100%);
         /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #c0d6df 1%, #36454f 100%);
+        background: -webkit-linear-gradient(left, #bdfffd 0%, #5697d2 18%, #da3e52 49%, #453f3c 100%);
         /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, #c0d6df 1%, #36454f 100%);
+        background: linear-gradient(to right, #bdfffd 0%, #5697d2 18%, #da3e52 49%, #453f3c 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0d6df', endColorstr='#36454f', GradientType=0);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bdfffd', endColorstr='#453f3c', GradientType=1);
         /* IE6-9 */
 
     }
@@ -41,37 +41,32 @@
     }
 
     body {
-        margin: 0;
+        margin: auto;
     }
 
     .logo img {
 
-        background-color: #C0D6DF;
+        background-color: #bdfffd;
         width: 120px;
         padding: 8px;
-        border-radius: 35px 0px 35px 0px;
+        border-radius: 35px 35px 35px 35px;
 
     }
 
     main {
         display: grid;
         justify-content: center;
-        background-color: #C0D6DF;
+        background-color: #453F3C;
     }
 
 
     footer {
         display: grid;
         justify-content: center;
-        background-color: #C0D6DF
-    }
-
-    .footercontent {
-        width: 550px;
     }
 
     header {
-        background-color: #E8DAB2;
+        background-color: #DA3E52;
     }
 
     h1 {
@@ -90,32 +85,25 @@
     }
 
     .forecast {
-        width: 80%;
+        width: 90%;
     }
 
-    .contact, body {
-        background-color: #C0D6DF
-    }
-
-    main,
     .contact,
-    .information,
-    footer {
-        margin-right: 80px;
-        margin-left: 80px;
-        ;
-
+    body {
+        background-color: #DA3E52
     }
+
     div.cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
     }
-    
+
     .cards div:nth-child(2) figure {
         grid-column: 1;
         grid-row: 1;
     }
+
     .cards div:nth-child(2) section {
         grid-column: 2;
     }
