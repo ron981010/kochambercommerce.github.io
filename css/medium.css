@@ -96,6 +96,10 @@
         color: black;
     }
 
+    .information {
+        text-align: center
+    }
+
     p,
     a,
     footer,
