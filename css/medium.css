@@ -77,6 +77,16 @@
         font-size: 1.8em;
     }
 
+    h2,
+    h1,
+    h3 {
+        color: #F0f4Ef;
+    }
+
+    .decorationhead {
+        color: black;
+    }
+
     p,
     a,
     footer,
