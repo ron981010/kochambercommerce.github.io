@@ -1,4 +1,4 @@
-const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const requestURL = "https://ron981010.github.io/kochambercommerce.github.io/cochabambaplaces.json";
 
 fetch(requestURL)
   .then(function (response) {
@@ -12,8 +12,15 @@ fetch(requestURL)
       (town) =>
         town.name == "Fish Haven" ||
         town.name == "Preston" ||
-        town.name == "Soda Springs"
+        town.name == "zona Norte"
     );
+    // "name": "zona Norte",
+    //"photo": "sodasprings.jpg",
+    //"motto": "Park with a beautiful view for turist",
+    //"events": [
+    //  "February 29: Photography Classes",
+    //  "May 1-6: Cycling Race",
+    //  "October 15-16: Kermes new restaurant"//
 
     home.forEach((town) => {
       let card = document.createElement("article");
