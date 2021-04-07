@@ -17,7 +17,7 @@
         "name": "Central Area",
         "photo":  "fishhaven.jpg",
         "motto": "Buildings of the central area",
-        "ComercialActivity": "General stores and Technology",
+        "CommercialActivity": "General stores and Technology",
         "GeneralIncomes": "3000000 bs",
         "NumberofCompanies": 400,
         "events": [
@@ -28,9 +28,9 @@
       },
       {
         "name": "West Area",
-        "photo": "springfield.jpg",
+        "photo": "preston.jpg",
         "motto": "An old Church builded a log time ago",
-        "ComercialActivity": "Tourism and Museums",
+        "CommercialActivity": "Tourism and Museums",
         "GeneralIncomes": "5000000 bs",
         "NumberofCompanies": 50,
         "events": [
