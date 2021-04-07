@@ -321,3 +321,33 @@ div.cards img {
 .textadd {
     margin: 25px;
 }
+
+.button {
+    background-color: #5bc0be; /* Green */
+    border: none;
+    color: #36454f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+
+  .button:hover {
+    background-color:#F0f4Ef; 
+    color: #DA3E52;
+  }
+  /*#DA3E52*/
+
+  .heroclass {
+    background-color: black; 
+    color: #F0f4Ef;
+    padding: 15px;
+    text-align: center;
+}
+
+.heroclass h2 {
+    color: #F0f4Ef;
+    font-size: 1.em;
+}
