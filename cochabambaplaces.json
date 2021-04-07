@@ -5,7 +5,7 @@
         "photo": "sodasprings.jpg",
         "motto": "Park with a beautiful view for turist",
         "CommercialActivity": "food and Bar",
-        "GeneralIncomes": "1700000 bs",
+        "GeneralIncomes": "1.700.000 Bs",
         "NumberofCompanies": 120,
         "events": [
           "February 29: Photography Classes",
@@ -16,9 +16,9 @@
       {
         "name": "Central Area",
         "photo":  "fishhaven.jpg",
-        "motto": "Buildings of the central area",
+        "motto": "Buildings of the central area (Commercial Area)",
         "CommercialActivity": "General stores and Technology",
-        "GeneralIncomes": "3000000 bs",
+        "GeneralIncomes": "3.000.000 Bs",
         "NumberofCompanies": 400,
         "events": [
             "February 29: Photography Classes",
@@ -29,9 +29,9 @@
       {
         "name": "West Area",
         "photo": "preston.jpg",
-        "motto": "An old Church builded a log time ago",
+        "motto": "An old Church builded a long time ago",
         "CommercialActivity": "Tourism and Museums",
-        "GeneralIncomes": "5000000 bs",
+        "GeneralIncomes": "5.000.000 Bs",
         "NumberofCompanies": 50,
         "events": [
             "February 29: Photography Classes",
