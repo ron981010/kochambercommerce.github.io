@@ -1,16 +1,13 @@
 {
     "towns": [
       {
-        "name": "Soda Springs",
+        "name": "zona Norte",
         "photo": "sodasprings.jpg",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "yearFounded": 1858,
-        "currentPopulation": 2985,
-        "averageRainfall": 15.75,
+        "motto": "Park with a beautiful view for turist",
         "events": [
-          "February 29: Geyser Song Day",
-          "May 1-6: Days of May Celebration",
-          "October 15-16: Octoberfest"
+          "February 29: Photography Classes",
+          "May 1-6: Cycling Race",
+          "October 15-16: Kermes new restaurant"
         ]
       },
       {
