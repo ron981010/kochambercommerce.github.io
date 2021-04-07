@@ -10,18 +10,11 @@ fetch(requestURL)
     const towns = jsonObject["towns"];
     const home = towns.filter(
       (town) =>
-        town.name == "Fish Haven" ||
-        town.name == "Preston" ||
-        town.name == "zona Norte"
+        town.name == "North Area" ||
+        town.name == "West Area" ||
+        town.name == "Central Area"
     );
-    // "name": "zona Norte",
-    //"photo": "sodasprings.jpg",
-    //"motto": "Park with a beautiful view for turist",
-    //"events": [
-    //  "February 29: Photography Classes",
-    //  "May 1-6: Cycling Race",
-    //  "October 15-16: Kermes new restaurant"//
-
+   
     home.forEach((town) => {
       let card = document.createElement("article");
       let stat = document.createElement("info");
@@ -33,9 +26,9 @@ fetch(requestURL)
 
       h3.innerHTML = `${town.name}`;
       h4.innerHTML = `${town.motto}`;
-      p1.textContent = `${"Year Founded:"}  ${town.yearFounded}`;
-      p2.textContent = `Population:  ${town.currentPopulation}`;
-      p3.textContent = `Annual Rain Fall:  ${town.averageRainfall}`;
+      p1.textContent = `${"Commercial Activity:"}  ${town.CommercialActivity}`;
+      p2.textContent = `General Incomes:  ${town.GeneralIncomes}`;
+      p3.textContent = `Number of Companies:  ${town.NumberofCompanies}`;
 
       const image = document.createElement("img");
 
