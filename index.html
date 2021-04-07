@@ -18,6 +18,9 @@
     <script src="js/portal.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/script.js" defer></script>
+    <script src="js/currentweatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/events.js"></script>
 </head>
 
 <body onload="GetFileInfo()">
@@ -67,6 +70,48 @@
             <p>Tempreture: <span id="temp"></span>F</p>
             <p>Humidity: <span id="humidity"></span></p>
         </section>
+        <div class="container">
+            <h3>5 Day Forecast</h3>
+            <table class="weather" border="1">
+                <tr>
+                    <th>
+                        <p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p>
+                    </th>
+                    <th>
+                        <p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p>
+                    </th>
+
+                </tr>
+                <tr>
+                    <td>
+                        <p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p>
+                    </td>
+                    <td>
+                        <p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p>
+                    </td>
+                    <td>
+                        <p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p>
+                    </td>
+                    <td>
+                        <p><span id="image4"></span>&nbsp;<img src="" alt="" id="icon4"></p>
+                    </td>
+                    <td>
+                        <p><span id="image5"></span>&nbsp;<img src="" alt="" id="icon5"></p>
+                    </td>
+                </tr>
+
+
+            </table>
+        </div>
         <section>
             <h2>Cochabamba Information and photos</h2>
             <div class="cards">
@@ -95,6 +140,10 @@
             </div>
         </div>
 
+        <div class="event">
+            <h4>Upcoming Events</h4>
+        </div>
+        
         <section class="contact">
             <div class="map">
                 <img src="images/map.jpg" alt="map">

@@ -1,0 +1,44 @@
+{
+    "towns": [
+      {
+        "name": "North Area",
+        "photo": "sodasprings.jpg",
+        "motto": "Park with a beautiful view for turist",
+        "CommercialActivity": "food and Bar",
+        "GeneralIncomes": "1.700.000 Bs",
+        "NumberofCompanies": 120,
+        "events": [
+          "February 29: Photography Classes",
+          "May 1-6: Cycling Race",
+          "October 15-16: Kermes new restaurant"
+        ]
+      },
+      {
+        "name": "Central Area",
+        "photo":  "fishhaven.jpg",
+        "motto": "Buildings of the central area (Commercial Area)",
+        "CommercialActivity": "General stores and Technology",
+        "GeneralIncomes": "3.000.000 Bs",
+        "NumberofCompanies": 400,
+        "events": [
+            "February 29: Photography Classes",
+            "May 1-6: Cycling Race",
+            "October 15-16: Kermes new restaurant"
+        ]
+      },
+      {
+        "name": "West Area",
+        "photo": "preston.jpg",
+        "motto": "An old Church builded a long time ago",
+        "CommercialActivity": "Tourism and Museums",
+        "GeneralIncomes": "5.000.000 Bs",
+        "NumberofCompanies": 50,
+        "events": [
+            "February 29: Photography Classes",
+            "May 1-6: Cycling Race",
+            "October 15-16: Kermes new restaurant"
+        ]
+      }
+      
+    ]
+  }
