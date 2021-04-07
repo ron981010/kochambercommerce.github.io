@@ -310,12 +310,12 @@ div.cards {
 }
 
 div.cards img {
-    width: 62%;
-    max-height: 250px;
-    padding: 5px;
-    margin: 10px;
-    background-color: #F5F5F5;
-    box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 black;
+   width: 80%;
+   max-height: 340px;
+   /* padding: 5px; */
+   margin: 10px;
+   /* background-color: #F5F5F5; */
+   box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 black;
 }
 
 .textadd {
@@ -351,3 +351,4 @@ div.cards img {
     color: #F0f4Ef;
     font-size: 1.em;
 }
+

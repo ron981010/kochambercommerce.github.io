@@ -32,11 +32,11 @@
 
     .weather-summary {
         position: absolute;
-        top: 300px;
-        right: 20px;
-        background-color: rgb(188 254 252 / 27%);
-        width: 30%;
-        padding-left: 30px;
+        top: 320px;
+        left: 20px;
+        background-color: rgb(212 255 254 / 27%);
+        width: 20%;
+        padding-left: 20px;
     }
 
     
