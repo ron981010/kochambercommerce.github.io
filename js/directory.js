@@ -29,14 +29,14 @@ fetch(requestURL)
       const p3 = document.createElement("p");
 
       h3.innerHTML = `${busines.name}`;
-      h4.innerHTML = `${busines.logo}`;
+      h4.innerHTML = `add other relevant info`;
       p1.textContent = `${"contact info:"}  ${busines.contactinfo}`;
       p2.textContent = `web link:  ${busines.weblink}`;
     
       const image = document.createElement("img");
 
-      image.setAttribute("src", "images/" + busines.photo);
-      image.setAttribute("alt", busines.photo);
+      image.setAttribute("src", "images/" + busines.logo);
+      image.setAttribute("alt", busines.logo);
 
       card.appendChild(stat);
       card.appendChild(image);
