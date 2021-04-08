@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="kochachambercommerce page of cochabamba's commerce">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <title>kochachambercommerce Home page</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script src="js/portal.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/scriptcity.js" defer></script>
+    <script src="js/currentweatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/weatherapi.js"></script>
+</head>
+
+<body onload="GetFileInfo()">
+
+    <div id="Fri" style="display:none">
+        Saturday = Welcome to the chamber of commerce from Cochabamba.
+    </div>
+    <div id="others" style="display:none">
+    </div>
+
+    <section class=headersection>
+        <header>
+            <div class="logo">
+                <img src="images/iconfinder_fog-cloud_110834.png" alt="logo">
+            </div>
+            <div>
+                <h1>kochachambercommerce</h1>
+                <h2 class=decorationhead>The perfect place for the perfect network </h2>
+            </div>
+        </header>
+    </section>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://ron981010.github.io/kochambercommerce.github.io/index.html">Home</a></li>
+            <li class=active><a href="https://ron981010.github.io/kochambercommerce.github.io/city.html">City</a></li>
+            <li><a href="*">Join</a></li>
+            <li><a href="*">Community</a></li>
+            <li><a href="*">Contact</a></li>
+            <li><a href="*">Map</a></li>
+        </ul>
+    </nav>
+    <main class="clearfix"><br>
+        <h2>Welcome to Cochambamba</h2>
+
+        <div class="hero"></div>
+        <picture class="photoA">
+            <source media="(max-width: 200px)" srcset="images\Cristo.jpg">
+            <source media="(max-width: 500px)" srcset="images\Cristo.jpg">
+            <source media="(max-width: 800px)" srcset="images\Cristo.jpg">
+            <img class="heroimg" src="images/Cristo.jpg" alt="hero img">
+        </picture>
+        </div>
+        <section class="weather-summary">
+            <h3>Weather Summary</h3>
+            <p>Weather: <span id="weather"></span></p>
+            <p>Tempreture: <span id="temp"></span>F</p>
+            <p>Humidity: <span id="humidity"></span></p>
+        </section>
+
+       
+
+        <div class="heroclass">
+            <h2>Thanks!</br> We will contact you soon.</h2>
+        </div>
+
+        <section class="contact">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21539.251987337913!2d-66.15653832115625!3d-17.381153974103896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1617856766325!5m2!1ses!2sbo"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="information">
+                <h2>Contact Information</h2>
+                <p>+591 78889652</p>
+                <p>mail@kochambercommerce.com</p>
+                <p>538 Av. La paz </p>
+                <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/faceicon.png"
+                        alt="facebook logo" /></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/insticon.png"
+                        alt="instagram logo" /></a>
+                <a href="https://www.youtube.com" target="_blank"><img class="social" src="images/youtubeicon.png"
+                        alt="youtube logo" /></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class=footercontent>
+            <p>&copy; 2021 | Ronald Acarapi | Bolivia |
+                <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <br>| <a
+                    href="https://openweathermap.org/">Thanks to Openweathermap</a>
+            </p>
+            <p><span id="currentDate"></span></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
