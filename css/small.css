@@ -307,6 +307,7 @@ div.cards {
     overflow: auto;
     background: #F5F5F5;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 div.cards img {
