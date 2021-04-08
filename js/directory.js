@@ -15,7 +15,7 @@ fetch(requestURL)
         busines.name == "Cine Center" ||
         busines.name == "BNB" ||
         busines.name == "BoA" ||
-        busines.name == "Finor" ||
+        busines.name == "Fino" ||
         busines.name == "Soboce" 
     );
    
