@@ -63,7 +63,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #76c0dc;
 }
 
 header h2 {
@@ -114,7 +114,7 @@ body {
 }
 
 .decorationhead {
-    color: #DD6E42;
+    color: #DA3E52;
     font-style: italic;
 }
 
@@ -140,6 +140,10 @@ main {
     border-color: #5697D2;
 }
 
+img.social {
+    background-color: #5697D2;
+
+}
 .photoA img {
     width: 100%;
 }

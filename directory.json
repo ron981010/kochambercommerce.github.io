@@ -1,0 +1,48 @@
+{
+    "business": [
+      {
+        "name": "Monopol",
+        "logo": "addone.jpg",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.monopol.com"
+      },
+      {
+        "name": "Miraflores",
+        "logo": "add2.jpg",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.miraflores.com"
+      },
+      {
+        "name": "Cine Center",
+        "logo": "add3.jpg",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.cinecenter.com"
+      },
+      {
+        "name": "BNB",
+        "logo": "add4.png",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.bnb.com"
+      },
+      {
+        "name": "BoA",
+        "logo": "add5.jpg",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.boa.com"
+      },
+      {
+        "name": "Fino",
+        "logo": "add6.jfif",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.fino.com"
+      },
+      {
+        "name": "Soboce",
+        "logo": "add7.jfif",
+        "contactinfo": "Number: +591 79854620",
+        "weblink": "www.soboce.com"
+      }
+      
+      
+    ]
+  }
