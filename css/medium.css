@@ -163,6 +163,11 @@
         font-size: 2em;
         color: white;
     }
+
+    iframe {
+        max-width: 600px;
+        max-height: 400px;
+    }
 }
 
 /*end medium */

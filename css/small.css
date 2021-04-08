@@ -75,7 +75,7 @@ body {
 }
 
 .logo img {
-    width: 100px;
+    width: 50px;
     margin-right: 10px;
 }
 
@@ -116,6 +116,7 @@ body {
 .decorationhead {
     color: #DA3E52;
     font-style: italic;
+    font-size: 0.8em;
 }
 
 h1 {
@@ -159,8 +160,8 @@ img.social {
     display: flex;
 }
 
-.map img {
-    width: 100%;
+.map {
+    width: 100px;
 }
 
 .social {
@@ -391,4 +392,9 @@ div.cards img {
 
 .formhead {
     color: black;
+}
+
+iframe {
+    max-width: 400px;
+    max-height: 500px;
 }
