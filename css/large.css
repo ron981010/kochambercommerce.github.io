@@ -39,6 +39,20 @@
         padding-left: 20px;
     }
 
+    .weather {
+        width: 90%;
+    }
+
+
+    .container {
+        position: absolute;
+        top: 680px;
+        left: 20px;
+        background-color: rgb(30 30 30 / 72%);
+        width: 45%;
+        padding-left: 20px;
+    }
+
 
     .article {
         display: flex;

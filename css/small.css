@@ -353,3 +353,25 @@ div.cards img {
     font-size: 1.em;
 }
 
+.weather-summary {
+        
+    background-color: #da3e5341;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.container {
+    background-color: #da3e5341;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+
+.weather {
+    margin: auto;
+    width: 90%;
+}
