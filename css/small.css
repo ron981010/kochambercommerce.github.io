@@ -67,7 +67,7 @@ header {
 }
 
 header h2 {
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 body {
@@ -120,7 +120,7 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -158,10 +158,6 @@ img.social {
 
 .contact {
     display: flex;
-}
-
-.map {
-    width: 100px;
 }
 
 .social {
@@ -395,6 +391,6 @@ div.cards img {
 }
 
 iframe {
-    max-width: 400px;
+    max-width: 300px;
     max-height: 500px;
 }
