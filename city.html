@@ -4,22 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Whateride information about activities">
+    <meta name="description" content="kochachambercommerce page of cochabamba's commerce">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>Weatheride web page Preston</title>
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <title>kochachambercommerce Home page</title>
 
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
 
-    <script src="lesson10/js/portal.js"></script>
-    <script src="lesson10/js/scripts.js"></script>
-    <script src="lesson10/js/currentweatherapi.js"></script>
-    <script src="lesson10/js/forecast.js"></script>
-    <script src="jssoda/eventssoda.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script src="js/portal.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/scriptcity.js" defer></script>
+    <script src="js/currentweatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/weatherapi.js"></script>
 </head>
 
 <body onload="GetFileInfo()">
@@ -37,7 +40,7 @@
             </div>
             <div>
                 <h1>kochachambercommerce</h1>
-                <h2 class=decorationhead>The perfect place for the perfect moment </h2>
+                <h2 class=decorationhead>The perfect place for the perfect network </h2>
             </div>
         </header>
     </section>
@@ -48,45 +51,45 @@
             <li class=active><a href="https://ron981010.github.io/kochambercommerce.github.io/city.html">City</a></li>
             <li><a href="*">Join</a></li>
             <li><a href="*">Community</a></li>
-            
             <li><a href="*">Contact</a></li>
             <li><a href="*">Map</a></li>
         </ul>
     </nav>
+    <main class="clearfix"><br>
+        <h2>Welcome to Cochambamba</h2>
 
-    <main class="clearfix">
-        <h1 class="preston">Preston Idaho</h1>
-        <div class="hero-div">
-            <div class="hero-ph">
-                <img class="heroimg" src="images/Cristo.jpg" alt="hero img">
-            </div>
-            <section class="weather-summary">
-                <h3>Weather Summary</h3>
-                <p>Weather: <span id="weather"></span></p>
-                <p>Tempreture: <span id="temp"></span>F</p>
-                <p>Humidity: <span id="humidity"></span></p>
-                <p>Wind Chill: <span id="wind"></span>F</p>
-                <p>Wind Speed: <span id="speed"></span>mph</p>
-            </section>
+        <div class="hero"></div>
+        <picture class="photoA">
+            <source media="(max-width: 200px)" srcset="images\Cristo.jpg">
+            <source media="(max-width: 500px)" srcset="images\Cristo.jpg">
+            <source media="(max-width: 800px)" srcset="images\Cristo.jpg">
+            <img class="heroimg" src="images/Cristo.jpg" alt="hero img">
+        </picture>
         </div>
+        <section class="weather-summary">
+            <h3>Weather Summary</h3>
+            <p>Weather: <span id="weather"></span></p>
+            <p>Tempreture: <span id="temp"></span>F</p>
+            <p>Humidity: <span id="humidity"></span></p>
+        </section>
         <div class="container">
             <h3>5 Day Forecast</h3>
             <table class="weather" border="1">
                 <tr>
                     <th>
-                        <p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p>
+                        <p><span id="dayofWeek1"></span>:</br><span id="forecast1"></span>&deg; F</p>
                     </th>
                     <th>
-                        <p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p>
+                        <p><span id="dayofWeek2"></span>:</br><span id="forecast2"></span>&deg; F</p>
                     </th>
                     <th>
-                        <p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p>
+                        <p><span id="dayofWeek3"></span>:</br><span id="forecast3"></span>&deg; F</p>
                     </th>
                     <th>
-                        <p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p>
+                        <p><span id="dayofWeek4"></span>:</br><span id="forecast4"></span>&deg; F</p>
                     </th>
                     <th>
-                        <p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p>
+                        <p><span id="dayofWeek5"></span>:</br><span id="forecast5"></span>&deg; F</p>
                     </th>
 
                 </tr>
@@ -111,54 +114,78 @@
 
             </table>
         </div>
+        <div class="textadd">
 
-        <div class="event">
-            <h4>Upcoming Events</h4>
+            <h2>Cochabamba </h2>
+            <p>Cochabamba (Aymara: Quchapampa; Quechua: Quchapanpa) is a city and municipality in central Bolivia in a
+                valley in the Andes mountain range. It is the capital of the Cochabamba Department and the fourth
+                largest city in Bolivia, with a population of 630,587 according to the 2012 Bolivian census.[1] Its name
+                is from a compound of the Quechua words qucha "lake" and pampa, "open plain."[2] Residents of the city
+                and the surrounding areas are commonly referred to as cochalas or, more formally, cochabambinos.
+
+                It is known as the "City of Eternal Spring" or "The Garden City" because of its spring-like temperatures
+                all year round.[3] It is also known as "La Llajta," which means "town" in Quechua.
+            </p>
+            <div class="cards">
+                <h2>Photos <img src="images\kocha1.jpg" alt="Monopol Add">
+                </h2>
+                <h2>Photos <img src="images\kocha2.jpg" alt="Miraflores add">
+                </h2>
+                <h2>Photos <img src="images\kocha3.jpg" alt="Cine Center add">
+                </h2>
+                <h2>Photos <img src="images\kocha4.jpg" alt="Monopol Add">
+                </h2>
+                <h2>Photos <img src="images\preston.jpg" alt="Miraflores add">
+                </h2>
+                <h2>Photos <img src="images\fishhaven.jpg" alt="Cine Center add">
+                </h2>
+
+            </div>
         </div>
 
-        <div class="article">
-            <p class="article-paragraph">Preston was incorporated as a village in 1900 and as a city in 1912. The
-                new city of Preston, Idaho became the county seat of Franklin County in 1913 culminating a long
-                effort to divide from Oneida County.
-
-                When Andrew Jensen was collecting historical data for the Mormon Church in 1890 he wrote the
-                following about Preston Idaho:
-
-                Preston is in the Oneida Stake. It contains 106 families belonging to the church, most of whom live
-                in a scattered condition on their farms and ranches within a scope of country, about four miles
-                square. … It contains sixteen ten acre blocks and is perhaps as beautiful a town site as can be
-                found in Southern Idaho. It is being built up quite fast, and fine thrifty shade trees are planted
-                along the sidewalks of the principal streets. A Stake Academy building is also in course of
-                erection, which when completed will add considerable importance to the town. … There is room and
-                land for a large number of Saints yet, and I have not for a long time seen a new settlement in the
-                mountains that I would rather recommend to my friends who are seeking homes than Preston. </p>
-            <img class="article-img" src="images/artphoto.jpeg" alt="imgarticle">
+        <div class="heroclass">
+            <h2>Our goal is help each other</br> What are you waiting for?</h2>
+            <a href="#" class="button"> Join with us and
+                have a membership</a>
         </div>
 
+        <div class="cards">
+            <h4>Gastronomy</h4>
+            <p>Chicharrón: plato hecho con carne de cerdo cocido. </br> 
+                P'ampaku: plato realizado con carne de pollo. </br> 
+                Sillp'ancho:  plato seco con carne de res apanada. </br> 
+                Jak'a Lawa: plato de choclo (maíz fresco en mazorca) molido. </br> 
+                Ch'aqchu: plato hecho con chuño. </br> 
+                Jawas Piqtu: plato hecho con habas, mezcladas con huevo y tomate. </br>
+                Pique Macho: originalmente es un plato carne de lomo de res frita en su jugo.</p>
+            <div class="some"></div>
+        </div>
+
+        <section class="contact">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21539.251987337913!2d-66.15653832115625!3d-17.381153974103896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1617856766325!5m2!1ses!2sbo"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="information">
+                <h2>Contact Information</h2>
+                <p>+591 78889652</p>
+                <p>mail@kochambercommerce.com</p>
+                <p>538 Av. La paz </p>
+                <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/faceicon.png"
+                        alt="facebook logo" /></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/insticon.png"
+                        alt="instagram logo" /></a>
+                <a href="https://www.youtube.com" target="_blank"><img class="social" src="images/youtubeicon.png"
+                        alt="youtube logo" /></a>
+            </div>
+        </section>
     </main>
-    <section class="contact">
-        <div class="map">
-            <img src="images/map.jpg" alt="map">
-        </div>
-        <div class="information">
-            <h2>Contact Information</h2>
-            <p>254 658 365</p>
-            <p>mail@preston.com</p>
-            <p>65 Map Street</p>
-            <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/faceicon.png"
-                    alt="facebook logo" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/insticon.png"
-                    alt="instagram logo" /></a>
-            <a href="https://www.youtube.com" target="_blank"><img class="social" src="images/youtubeicon.png"
-                    alt="youtube logo" /></a>
-        </div>
-    </section>
 
     <footer>
         <div class=footercontent>
             <p>&copy; 2021 | Ronald Acarapi | Bolivia |
-                <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <br> <a
-                    href="https://ron981010.github.io/index.html#">Home Page</a> | <a
+                <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <br>| <a
                     href="https://openweathermap.org/">Thanks to Openweathermap</a>
             </p>
             <p><span id="currentDate"></span></p>
