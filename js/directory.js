@@ -29,7 +29,7 @@ fetch(requestURL)
       const p3 = document.createElement("p");
 
       h3.innerHTML = `${busines.name}`;
-      h4.innerHTML = `add other relevant info`;
+      h4.innerHTML = `This could be you`;
       p1.textContent = `${"contact info:"}  ${busines.contactinfo}`;
       p2.textContent = `web link:  ${busines.weblink}`;
     
