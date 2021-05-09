@@ -1,0 +1,31 @@
+/*[title*=fieldset] {
+    color: red;
+
+}
+
+li:nth-child(-n+5) {
+    color: red;
+
+}*/
+
+fieldset p:nth-child(n+4) {
+    visibility: hidden;
+
+}
+
+.help::after {
+
+    content:")";
+}
+
+.help::before {
+
+    content:"(";
+}
+
+fieldset[title=fieldset2] > p + p {
+    color:blu
+}
+fieldset:nth-of-type(2) >p + p{
+    color:blue;
+}
